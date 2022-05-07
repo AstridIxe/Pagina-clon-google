@@ -25,14 +25,126 @@ header {
 .header_right a {
     margin-right: 20px;
     color: rgba(0,0,0,.87);
-    font-size: 15px;
+    font-size: 13px;
+    font-family: Arial, Helvetica, sans-serif;
     text-decoration: inherit;
 }
 
 .header_right a:hover {
     text-decoration: underline;
+    cursor: pointer;
 }
 
 .header_right .header-apps {
     margin-right: 20px;
+    color: gray;
+}
+
+.header_right .header-apps:hover {
+    cursor: pointer;
+    box-shadow: 0 0 25px grey;
+    border-radius: 50%;
+}
+
+#perfil {
+    border-radius: 50%;
+}
+
+#perfil:hover {
+    box-shadow: 0 0 10px grey;
+    cursor: pointer;
+}
+
+main{
+    flex: 1;
+    display: flex;
+    margin-top: 12%;
+    flex-direction: column;
+}
+
+#logo {
+    object-fit: contain;
+    height: 100px;   
+}
+
+.search {
+    display: flex;
+    align-items: center;
+    border: 1px solid lightgrey;
+    height: 30px;
+    padding: 10px 20px;
+    border-radius: 999px;
+    width: 75vw;
+    margin: 0 auto;
+    max-width: 560px;
+}
+
+.search:hover {
+    box-shadow: 0 0 3px grey;
+}
+
+.search .search-input {
+    flex: 1;
+    padding: 10px 20px;
+    border: none;
+    outline: none;
+    cursor: text;
+}
+
+#searchbutton{
+    color: gray;
+    float: left;
+    cursor: default;
+}
+
+#barra {
+    border: none;
+    outline: none;
+    width: 400px;
+    align-items: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    padding-left: 10px;
+}
+
+#mic {
+    color: gray;
+    float: right;
+    cursor: pointer;
+}
+
+.search-buttons{
+    margin-top: 30px;
+    display: flex;
+    justify-content: center;
+}
+
+.search-buttons button {
+    margin: 5px;
+    padding: 10px 15px;
+    background-color: #f8f8f8;
+    outline: none;
+    border: none;
+    cursor: pointer;
+}
+
+.search-buttons button:hover {
+    box-shadow: 0 0 2px grey;
+}
+
+#idioma {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 13px;
+    text-align: center;
+    word-spacing: 1px;
+    padding-top: 20px;
+}
+
+#idioma a {
+    text-decoration: inherit;
+    padding-left: 6px;
+}
+
+#idioma a:hover {
+    text-decoration: underline;
 }
