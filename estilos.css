@@ -1,0 +1,38 @@
+*{
+    margin: 0;
+}
+
+body{
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 30px;
+    align-items: center;
+}
+
+.header_right {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    float: right;
+}
+
+.header_right a {
+    margin-right: 20px;
+    color: rgba(0,0,0,.87);
+    font-size: 15px;
+    text-decoration: inherit;
+}
+
+.header_right a:hover {
+    text-decoration: underline;
+}
+
+.header_right .header-apps {
+    margin-right: 20px;
+}
